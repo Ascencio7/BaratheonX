@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    tools:context=".BaratheonResumen">
+
+    <TextView
+        android:id="@+id/txtTituloResumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resumen_de_registro"
+        android:textSize="28sp"
+        android:textColor="#F2C94C"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/txtRestaurante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurante"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/txtTituloResumen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+        android:id="@+id/txtRubro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rubro"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/txtRestaurante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+        android:id="@+id/txtCliente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cliente"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/txtRubro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Usuario: "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/txtCliente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:backgroundTint="#F2C94C"
+        app:layout_constraintTop_toBottomOf="@id/txtUsuario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:backgroundTint="#F2C94C"
+        app:layout_constraintTop_toBottomOf="@id/btnMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:backgroundTint="#F2C94C"
+        app:layout_constraintTop_toBottomOf="@id/btnRegresar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
