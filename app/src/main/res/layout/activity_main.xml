@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="Inicio de Sesión"
+        android:text="@string/inicio_de_la_sesi_n"
         android:textColor="#F2C94C"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
